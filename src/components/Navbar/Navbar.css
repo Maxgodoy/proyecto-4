@@ -3,7 +3,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #2b2926;
+    background-color: #322807;
     color: #fff;
 
     padding: 1rem 2rem;
@@ -69,7 +69,7 @@
     left: 0;
     width: 100%;
     height: 100vh;
-    background-color: #2b2926;
+    background-color: #322807;
     transition: .5s ease;
 
     flex-direction: column;
@@ -93,7 +93,7 @@
 .app__navbar-smallscreen_links li {
     margin: 2rem;
     cursor: pointer;
-    color: var(--color-golden);
+    color: #fff;
     font-size: 2rem;
     text-align: center;
     font-family: var(--font-base);
