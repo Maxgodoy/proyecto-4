@@ -1,0 +1,64 @@
+.app__sobrenosotros{
+    position: relative;
+}
+
+.app__sobrenosotros-content{
+    width: 100%;
+    z-index: 2;
+}
+
+.app__sobrenosotros-content_sobre{
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+
+    text-align: right;
+}
+
+.app__sobrenosotros-content_knife{
+    margin: 2rem 4rem;
+}
+
+.app__sobrenosotros-content_knife img{
+    height: 910px;
+}
+
+.app__sobrenosotros-content_historia{
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+
+    text-align: left;
+}
+
+.app__sobrenosotros-content_historia p,
+.app__sobrenosotros-content_sobre p{
+    margin: 2rem 0;
+    
+}
+
+@media screen and (max-width: 2000px){
+    .app__sobrenosotros-content_knife img{
+        height: 1150px;
+    }
+    .app__sobrenosotros-content_historia p,
+.app__sobrenosotros-content_sobre p{
+    margin: 4rem 0;
+    
+}
+
+}
+
+@media screen and (max-width: 900px){
+    .app__sobrenosotros-content{
+        flex-direction:column ;
+
+    }
+    .app__sobrenosotros-content_knife{
+        margin: 4rem 0;
+    }
+}

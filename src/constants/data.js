@@ -1,30 +1,30 @@
 import images from './images';
 
-const wines = [
+const platos = [
   {
-    title: 'Chapel Hill Shiraz',
-    price: '$56',
-    tags: 'AU | Bottle',
+    title: 'Lasaña a la boloñesa',
+    price: '$20',
+    tags: ' Carne de cerdo picada con tomate, la pasta en tiras, la besamel y el queso.',
   },
   {
-    title: 'Catena Malbee',
-    price: '$59',
-    tags: 'AU | Bottle',
+    title: 'Focaccia',
+    price: '$15',
+    tags: 'Pan muy esponjoso con aceite de oliva, sal y romero.',
   },
   {
-    title: 'La Vieillw Rose',
-    price: '$44',
-    tags: 'FR | 750 ml',
+    title: 'Ñoquis',
+    price: '$18',
+    tags: 'Bolitas elaboradas con harina y patata.',
   },
   {
-    title: 'Rhino Pale Ale',
-    price: '$31',
-    tags: 'CA | 750 ml',
+    title: 'Ensalada caprese',
+    price: '$12',
+    tags: 'Mezcla de tomate, mozzarella, albahaca aliñado con aceite de oliva.',
   },
   {
-    title: 'Irish Guinness',
-    price: '$26',
-    tags: 'IE | 750 ml',
+    title: 'Espaguetis a la carbonara',
+    price: '$18',
+    tags: 'Plato de espaguetis con bacon y huevo, sazonado con pimienta y parmesano.',
   },
 ];
 
@@ -37,46 +37,25 @@ const cocktails = [
   {
     title: "Dark 'N' Stormy",
     price: '$16',
-    tags: 'Dark rum | Ginger beer | Slice of lime',
+    tags: 'Ron Oscuro | Cerveza De Jengibre | Rodaja De Lima',
   },
   {
     title: 'Daiquiri',
     price: '$10',
-    tags: 'Rum | Citrus juice | Sugar',
+    tags: 'Ron | Jugo De Cítricos | Azúcar',
   },
   {
     title: 'Old Fashioned',
     price: '$31',
-    tags: 'Bourbon | Brown sugar | Angostura Bitters',
+    tags: 'Borbón | Azúcar Moreno | Amargos De Angostura',
   },
   {
     title: 'Negroni',
     price: '$26',
-    tags: 'Gin | Sweet Vermouth | Campari | Orange garnish',
+    tags: 'Ginebra | Vermú Dulce | Campari | Guarnición De Naranja',
   },
 ];
 
-const awards = [
-  {
-    imgUrl: images.award02,
-    title: 'Bib Gourmond',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
-  },
-  {
-    imgUrl: images.award01,
-    title: 'Rising Star',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
-  },
-  {
-    imgUrl: images.award05,
-    title: 'AA Hospitality',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
-  },
-  {
-    imgUrl: images.award03,
-    title: 'Outstanding Chef',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
-  },
-];
 
-export default { wines, cocktails, awards };
+
+export default { platos, cocktails, };
