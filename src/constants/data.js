@@ -1,4 +1,4 @@
-import images from './images';
+
 
 const platos = [
   {
@@ -58,4 +58,4 @@ const cocktails = [
 
 
 
-export default { platos, cocktails, };
+export default { platos, cocktails };

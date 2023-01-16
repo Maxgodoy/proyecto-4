@@ -6,7 +6,7 @@ import { images } from '../../constants';
 const FindUs = () => (
   <div className="app__bg app__wrapper section__padding" id="contact">
     <div className="app__wrapper_info">
-      <SubHeading title="Contacto" />
+      <SubHeading title="Ahora en tu ciudad" />
       <h1 className="headtext__cormorant" style={{ marginBottom: '3rem' }}>Encuentranos</h1>
       <div className="app__wrapper-content">
         <p className="p__opensans">Calle San martin 1231, Santiago de Chile</p>
